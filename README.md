@@ -1,6 +1,6 @@
 # Producer-Consumer
 
-This program can be a producer or consumer. The program uses semaphores to protect critical sections. Here are a few command-line arguments that can be passed when running the program:
+This program can be a producer or consumer and will run forever unless a SIGINT is sent to the process. The program uses semaphores to protect critical sections. Here are a few command-line arguments that can be passed when running the program:
 
 -c or -p (one required, not both): makes the process act like a consumer or producer respectively
 -s or -u (one required, not both): chooses shared memory or Unix sockets respectively as a form of interprocess communication
