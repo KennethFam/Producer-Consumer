@@ -9,7 +9,7 @@ This program can be a producer or consumer and will run forever unless a SIGINT 
 - -e (optional for both producer and consumer): prints the string being produced or consumed
 
 Example Uses of Command-Line Arguments:
-./producer-consumer.c -p -s -m "Hello Word!" -e -q 5
-./producer-consumer.c -c -s -e -q 5
-./producer-consumer.c -p -s -m "Hello Word!" -q 5
-./producer-consumer.c -c -s -q 5
+- ./producer-consumer.c -p -s -m "Hello Word!" -e -q 5
+- ./producer-consumer.c -c -s -e -q 5
+- ./producer-consumer.c -p -s -m "Hello Word!" -q 5
+- ./producer-consumer.c -c -s -q 5
